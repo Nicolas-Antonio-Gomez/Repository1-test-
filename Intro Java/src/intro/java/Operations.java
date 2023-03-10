@@ -17,13 +17,13 @@ public class Operations {
      */
     public static void main(String[] args) {
         
-       float num;
+       int num;
        
         System.out.println("Ingrese un número:");
         
         Scanner read = new Scanner(System.in);
         
-        num = read.nextFloat();
+        num = read.nextInt();
         
         System.out.println("El doble es: " + num*2);
         System.out.println("El triple es: " + num*3);

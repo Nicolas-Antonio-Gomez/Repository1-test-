@@ -6,6 +6,8 @@
 package intro.java;
 
 import java.util.Scanner;
+
+
 /**
  *
  * @author nicol
@@ -21,10 +23,10 @@ public class Adittion {
         
         System.out.println("Ingrese dos números a ser sumados:");
         
-        Scanner read = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         
-        num1 = read.nextInt();
-        num2 = read.nextInt();
+        num1 = leer.nextInt();
+        num2 = leer.nextInt();
         result = num1 + num2;
         
         System.out.println("El resultado de la suma es " + result);

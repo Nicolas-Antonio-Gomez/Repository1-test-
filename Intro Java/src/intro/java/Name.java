@@ -21,9 +21,9 @@ public class Name {
         
         System.out.println("Ingrese su nombre completo:");
         
-        Scanner read = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         
-        name = read.nextLine();
+        name = leer.nextLine();
         
         System.out.println("El usuario se identificó como: " + name);
     }
