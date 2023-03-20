@@ -7,7 +7,6 @@ package controlstructures;
 import java.util.Scanner;
 
 public class Extra6 {
-
     
     public static void main(String[] args) {
        Scanner read = new Scanner(System.in);
